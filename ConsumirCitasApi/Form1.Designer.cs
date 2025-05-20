@@ -122,7 +122,7 @@ namespace ConsumirCitasApi
             // 
             // txtIDCita
             // 
-            txtIDCita.Location = new Point(140, 20);
+            txtIDCita.Location = new Point(159, 20);
             txtIDCita.Name = "txtIDCita";
             txtIDCita.Size = new Size(180, 35);
             txtIDCita.TabIndex = 18;
@@ -133,39 +133,39 @@ namespace ConsumirCitasApi
             labelidcita.Name = "labelidcita";
             labelidcita.Size = new Size(104, 32);
             labelidcita.TabIndex = 17;
-            labelidcita.Text = "IDCita:";
+            labelidcita.Text = "CitaID:";
             // 
             // txtEstado
             // 
-            txtEstado.Location = new Point(140, 228);
+            txtEstado.Location = new Point(159, 228);
             txtEstado.Name = "txtEstado";
             txtEstado.Size = new Size(180, 35);
             txtEstado.TabIndex = 16;
             // 
             // txtConsultorio
             // 
-            txtConsultorio.Location = new Point(140, 146);
+            txtConsultorio.Location = new Point(159, 143);
             txtConsultorio.Name = "txtConsultorio";
             txtConsultorio.Size = new Size(180, 35);
             txtConsultorio.TabIndex = 15;
             // 
             // txtDoctor
             // 
-            txtDoctor.Location = new Point(140, 105);
+            txtDoctor.Location = new Point(159, 102);
             txtDoctor.Name = "txtDoctor";
             txtDoctor.Size = new Size(180, 35);
             txtDoctor.TabIndex = 14;
             // 
             // txtPaciente
             // 
-            txtPaciente.Location = new Point(140, 64);
+            txtPaciente.Location = new Point(159, 64);
             txtPaciente.Name = "txtPaciente";
             txtPaciente.Size = new Size(180, 35);
             txtPaciente.TabIndex = 5;
             // 
             // dtpFechaCita
             // 
-            dtpFechaCita.Location = new Point(140, 187);
+            dtpFechaCita.Location = new Point(159, 184);
             dtpFechaCita.Name = "dtpFechaCita";
             dtpFechaCita.Size = new Size(180, 35);
             dtpFechaCita.TabIndex = 4;
@@ -211,25 +211,25 @@ namespace ConsumirCitasApi
             // 
             lblPaciente.Location = new Point(8, 64);
             lblPaciente.Name = "lblPaciente";
-            lblPaciente.Size = new Size(104, 32);
+            lblPaciente.Size = new Size(126, 32);
             lblPaciente.TabIndex = 9;
-            lblPaciente.Text = "Paciente:";
+            lblPaciente.Text = "PacienteID:";
             // 
             // lblDoctor
             // 
             lblDoctor.Location = new Point(8, 105);
             lblDoctor.Name = "lblDoctor";
-            lblDoctor.Size = new Size(90, 32);
+            lblDoctor.Size = new Size(104, 32);
             lblDoctor.TabIndex = 10;
-            lblDoctor.Text = "Doctor:";
+            lblDoctor.Text = "DoctorID:";
             // 
             // lblConsultorio
             // 
             lblConsultorio.Location = new Point(8, 149);
             lblConsultorio.Name = "lblConsultorio";
-            lblConsultorio.Size = new Size(136, 32);
+            lblConsultorio.Size = new Size(152, 32);
             lblConsultorio.TabIndex = 11;
-            lblConsultorio.Text = "Consultorio:";
+            lblConsultorio.Text = "ConsultorioID:";
             // 
             // lblFecha
             // 
@@ -255,7 +255,6 @@ namespace ConsumirCitasApi
             label1.Size = new Size(225, 35);
             label1.TabIndex = 19;
             label1.Text = "AGENDA DEL DOTOR";
- 
             // 
             // Form1
             // 
