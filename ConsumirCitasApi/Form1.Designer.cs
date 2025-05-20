@@ -255,7 +255,7 @@ namespace ConsumirCitasApi
             label1.Size = new Size(225, 35);
             label1.TabIndex = 19;
             label1.Text = "AGENDA DEL DOTOR";
-            label1.Click += label1_Click;
+ 
             // 
             // Form1
             // 
