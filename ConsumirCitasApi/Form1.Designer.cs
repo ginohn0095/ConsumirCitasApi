@@ -38,6 +38,7 @@ namespace ConsumirCitasApi
             lblConsultorio = new Label();
             lblFecha = new Label();
             lblEstado = new Label();
+            label1 = new Label();
             pnlLogin.SuspendLayout();
             pnlCRUD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvCitas).BeginInit();
@@ -128,7 +129,7 @@ namespace ConsumirCitasApi
             // 
             // labelidcita
             // 
-            labelidcita.Location = new Point(18, 23);
+            labelidcita.Location = new Point(8, 23);
             labelidcita.Name = "labelidcita";
             labelidcita.Size = new Size(104, 32);
             labelidcita.TabIndex = 17;
@@ -205,11 +206,10 @@ namespace ConsumirCitasApi
             dgvCitas.RowHeadersWidth = 72;
             dgvCitas.Size = new Size(969, 320);
             dgvCitas.TabIndex = 8;
-    
             // 
             // lblPaciente
             // 
-            lblPaciente.Location = new Point(19, 67);
+            lblPaciente.Location = new Point(8, 64);
             lblPaciente.Name = "lblPaciente";
             lblPaciente.Size = new Size(104, 32);
             lblPaciente.TabIndex = 9;
@@ -217,7 +217,7 @@ namespace ConsumirCitasApi
             // 
             // lblDoctor
             // 
-            lblDoctor.Location = new Point(19, 108);
+            lblDoctor.Location = new Point(8, 105);
             lblDoctor.Name = "lblDoctor";
             lblDoctor.Size = new Size(90, 32);
             lblDoctor.TabIndex = 10;
@@ -225,15 +225,15 @@ namespace ConsumirCitasApi
             // 
             // lblConsultorio
             // 
-            lblConsultorio.Location = new Point(19, 150);
+            lblConsultorio.Location = new Point(8, 149);
             lblConsultorio.Name = "lblConsultorio";
-            lblConsultorio.Size = new Size(104, 32);
+            lblConsultorio.Size = new Size(136, 32);
             lblConsultorio.TabIndex = 11;
             lblConsultorio.Text = "Consultorio:";
             // 
             // lblFecha
             // 
-            lblFecha.Location = new Point(24, 190);
+            lblFecha.Location = new Point(18, 191);
             lblFecha.Name = "lblFecha";
             lblFecha.Size = new Size(84, 32);
             lblFecha.TabIndex = 12;
@@ -241,15 +241,26 @@ namespace ConsumirCitasApi
             // 
             // lblEstado
             // 
-            lblEstado.Location = new Point(18, 226);
+            lblEstado.Location = new Point(8, 226);
             lblEstado.Name = "lblEstado";
             lblEstado.Size = new Size(104, 37);
             lblEstado.TabIndex = 13;
             lblEstado.Text = "Estado:";
             // 
+            // label1
+            // 
+            label1.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(495, 40);
+            label1.Name = "label1";
+            label1.Size = new Size(225, 35);
+            label1.TabIndex = 19;
+            label1.Text = "AGENDA DEL DOTOR";
+            label1.Click += label1_Click;
+            // 
             // Form1
             // 
             ClientSize = new Size(1186, 834);
+            Controls.Add(label1);
             Controls.Add(pnlLogin);
             Controls.Add(pnlCRUD);
             Name = "Form1";
@@ -288,5 +299,6 @@ namespace ConsumirCitasApi
         private TextBox txtPaciente;
         private TextBox txtIDCita;
         private Label labelidcita;
+        private Label label1;
     }
 }
