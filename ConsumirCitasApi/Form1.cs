@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using ConsumirCitasApi.Services;
 using ConsumirCitasApi.Models;
 
+
 namespace ConsumirCitasApi
 {
     public partial class Form1 : Form
@@ -21,6 +22,8 @@ namespace ConsumirCitasApi
 
 
         }
+
+        
 
         private async void btnLogin_Click_1(object sender, EventArgs e)
         {
@@ -65,7 +68,7 @@ namespace ConsumirCitasApi
             {
                 MessageBox.Show("Cita creada.");
                 await CargarCitasAsync();
-
+                LimpiarFormulario();
 
             }
             else
@@ -106,6 +109,7 @@ namespace ConsumirCitasApi
             {
                 MessageBox.Show("Error al actualizar.");
             }
+            
         }
 
 
